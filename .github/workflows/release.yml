@@ -32,4 +32,4 @@ jobs:
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
-        if: ${{ steps.release.outputs.release_created && env.SCOPED_NPM_PACKAGE }}
+        if: ${{ steps.release.outputs.release_created }}
