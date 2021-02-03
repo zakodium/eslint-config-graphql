@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.0...v1.1.1) (2021-02-03)
+
+
+### Bug Fixes
+
+* do not ignore publish release step ([cc4ee55](https://www.github.com/zakodium/eslint-config-graphql/commit/cc4ee55f06514e758255c9f7676565dc8bdd518a))
+
 ## [1.1.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.0.0...v1.1.0) (2021-02-03)
 
 
