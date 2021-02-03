@@ -1,0 +1,4 @@
+{
+    "schema": "./test/schema/**/*.graphql",
+    "documents": "./test/operations/**/*.graphql"
+}
