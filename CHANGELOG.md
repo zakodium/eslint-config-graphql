@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.1.2](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.1...v1.1.2) (2021-02-03)
+
+
+### Bug Fixes
+
+* correct typo in rule ([baa9158](https://www.github.com/zakodium/eslint-config-graphql/commit/baa915885962dcecbd012bc7a90b4322853661a0))
+* deactivate unique-enum-value-names ([0d19657](https://www.github.com/zakodium/eslint-config-graphql/commit/0d19657aa61557eb26fbdecd173c8ae54228c0e7))
+
 ### [1.1.1](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.0...v1.1.1) (2021-02-03)
 
 
