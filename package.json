@@ -1,0 +1,24 @@
+{
+  "name": "@zakodium/eslint-config-graphql",
+  "version": "1.0.0",
+  "description": "Eslint config for graphql files",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/test.mjs"
+  },
+  "dependencies": {
+    "@graphql-eslint/eslint-plugin": "^0.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.8.0",
+    "prettier": ">=2.1.0",
+    "graphql": ">=15.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "graphql": "^15.5.0",
+    "prettier": "^2.1.0"
+  }
+}

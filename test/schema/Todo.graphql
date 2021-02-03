@@ -1,0 +1,8 @@
+type Todo {
+  message: String!
+  user: User!
+}
+
+type Query {
+  todos: [Todo!]!
+}

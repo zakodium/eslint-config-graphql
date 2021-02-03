@@ -1,0 +1,9 @@
+query operation1 {
+  todos {
+    user {
+      id
+      name
+    }
+    message
+  }
+}
