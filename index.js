@@ -38,8 +38,9 @@ module.exports = {
               },
             ],
             // This rule is deactivated because it is not compatible with
-            // naming input types PascalCase but mutation arguments camelCase
-            '@gaphql-eslint/input-name': 0,
+            // naming input types PascalCase but mutations camelCase
+            // https://github.com/dotansimha/graphql-eslint/blob/a2b71f6be17ff57614f57b3648ae2256cc834ea9/docs/rules/input-name.md
+            '@graphql-eslint/input-name': 0,
             '@graphql-eslint/fields-on-correct-type': 2,
             '@graphql-eslint/fragments-on-composite-type': 2,
             '@graphql-eslint/overlapping-fields-can-be-merged': 2,
