@@ -1,8 +1,22 @@
 type Todo {
   message: String!
   user: User!
+  status: TodoStatus!
 }
 
 type Query {
   todos: [Todo!]!
+}
+
+enum TodoStatus {
+  PENDING
+  DONE
+}
+
+type Mutation {
+  createTodo(input: CreateTodoInput!): Todo!
+}
+
+input CreateTodoInput {
+  message: String!
 }

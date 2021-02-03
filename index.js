@@ -4,15 +4,17 @@ module.exports = {
         parser: '@graphql-eslint/eslint-plugin',
         plugins: ['@graphql-eslint'],
         rules: {
-            '@graphql-eslint/prettier': 2,
-            '@graphql-eslint/require-id-when-available': 2,
-            '@graphql-eslint/no-deprecated': 1,
-            // Those 5 following rules generate errors
+            // The following deactivated rules generate spurious errors
             '@graphql-eslint/unique-fragment-name': 0,
             '@graphql-eslint/unique-operation-name': 0,
             '@graphql-eslint/unique-field-definition-names': 0,
             '@graphql-eslint/executable-definitions': 0,
             '@graphql-eslint/unique-type-names': 0,
+            '@graphql-eslint/unique-enum-value-names': 0,
+
+            '@graphql-eslint/prettier': 2,
+            '@graphql-eslint/require-id-when-available': 2,
+            '@graphql-eslint/no-deprecated': 1,
             '@graphql-eslint/no-anonymous-operations': 2,
             '@graphql-eslint/no-operation-name-suffix': 2,
             '@graphql-eslint/avoid-duplicate-fields': 2,
@@ -35,12 +37,9 @@ module.exports = {
                 trailingUnderscore: 'forbid',
               },
             ],
-            '@graphql-eslint/input-name': [
-              'error',
-              {
-                checkInputType: true,
-              },
-            ],
+            // This rule is deactivated because it is not compatible with
+            // naming input types PascalCase but mutation arguments camelCase
+            '@gaphql-eslint/input-name': 0,
             '@graphql-eslint/fields-on-correct-type': 2,
             '@graphql-eslint/fragments-on-composite-type': 2,
             '@graphql-eslint/overlapping-fields-can-be-merged': 2,
@@ -61,7 +60,6 @@ module.exports = {
             '@graphql-eslint/unique-argument-names': 2,
             '@graphql-eslint/unique-directive-names': 2,
             '@graphql-eslint/unique-directive-names-per-location': 2,
-            '@graphql-eslint/unique-enum-value-names': 2,
             '@graphql-eslint/unique-input-field-names': 2,
             '@graphql-eslint/unique-operation-types': 2,
             '@graphql-eslint/unique-variable-names': 2,
