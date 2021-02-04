@@ -7,7 +7,6 @@ module.exports = {
             '@graphql-eslint/unique-fragment-name': 2,
             '@graphql-eslint/unique-operation-name': 2,
             '@graphql-eslint/unique-field-definition-names': 2,
-            '@graphql-eslint/executable-definitions': 2,
             '@graphql-eslint/unique-type-names': 2,
             '@graphql-eslint/unique-enum-value-names': 2,
 
@@ -65,6 +64,7 @@ module.exports = {
             '@graphql-eslint/value-literals-of-correct-type': 2,
             '@graphql-eslint/variables-are-input-types': 2,
             '@graphql-eslint/variables-in-allowed-position': 2,
+            '@graphql-eslint/executable-definitions': 0,
             strict: 0,
           }
     }]
