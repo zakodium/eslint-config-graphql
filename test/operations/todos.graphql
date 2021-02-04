@@ -1,13 +1,13 @@
 query todos {
   todos {
     user {
-      ...userFragment
+      ...userBase
     }
     message
   }
 }
 
-fragment userFragment on User {
+fragment userBase on User {
   id
   name
 }
