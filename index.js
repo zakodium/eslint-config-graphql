@@ -12,7 +12,6 @@ module.exports = {
             '@graphql-eslint/unique-type-names': 0,
             '@graphql-eslint/unique-enum-value-names': 0,
 
-            '@graphql-eslint/prettier': 2,
             '@graphql-eslint/require-id-when-available': 2,
             '@graphql-eslint/no-deprecated': 1,
             '@graphql-eslint/no-anonymous-operations': 2,
@@ -68,7 +67,6 @@ module.exports = {
             '@graphql-eslint/variables-are-input-types': 2,
             '@graphql-eslint/variables-in-allowed-position': 2,
             strict: 0,
-            'prettier/prettier': 0,
           }
     }]
 }

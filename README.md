@@ -5,7 +5,7 @@ Shared ESLint config for frontend and backend projects using graphql
 ## Installation
 
 ```console
-npx i -D @zakodium/eslint-config-graphql eslint prettier
+npx i -D @zakodium/eslint-config-graphql eslint
 ```
 
 `graphql` is also a peer dependency and would usually be in the dependencies of your project
