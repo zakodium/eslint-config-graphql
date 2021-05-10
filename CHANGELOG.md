@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.3](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.2...v1.1.3) (2021-05-10)
+
+
+### Bug Fixes
+
+* remove Prettier ([6ea255e](https://www.github.com/zakodium/eslint-config-graphql/commit/6ea255e67540815fac6cf1be6ed63b8421e4953d))
+
 ### [1.1.2](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.1...v1.1.2) (2021-02-03)
 
 
