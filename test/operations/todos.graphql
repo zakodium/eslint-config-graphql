@@ -1,4 +1,4 @@
-query operation1 {
+query Operation1 {
   todos {
     user {
       id
