@@ -1,4 +1,4 @@
-query todos {
+query Todos {
   todos {
     user {
       ...userBase
