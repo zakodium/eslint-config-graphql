@@ -6,3 +6,9 @@ type User {
   id: ID!
   name: String!
 }
+
+type Todo {
+  message: String!
+  user: User!
+  status: TodoStatus!
+}
