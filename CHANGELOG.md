@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.3...v1.2.0) (2021-05-21)
+
+
+### Features
+
+* upgrade plugin and active unique-type-names rule ([#8](https://www.github.com/zakodium/eslint-config-graphql/issues/8)) ([f51e03a](https://www.github.com/zakodium/eslint-config-graphql/commit/f51e03afa26882b0c31659428273a20fd37f5688))
+
 ### [1.1.3](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.2...v1.1.3) (2021-05-10)
 
 
