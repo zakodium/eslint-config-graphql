@@ -9,7 +9,7 @@
     "test": "node test/test.mjs"
   },
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^0.8.0"
+    "@graphql-eslint/eslint-plugin": "^1.0.1"
   },
   "peerDependencies": {
     "eslint": ">=7.8.0",
