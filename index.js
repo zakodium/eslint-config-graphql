@@ -5,13 +5,13 @@ module.exports = {
       parser: '@graphql-eslint/eslint-plugin',
       plugins: ['@graphql-eslint'],
       rules: {
-        // The following deactivated rules generate spurious errors
-        '@graphql-eslint/unique-fragment-name': 0,
-        '@graphql-eslint/unique-operation-name': 0,
-        '@graphql-eslint/unique-field-definition-names': 0,
         '@graphql-eslint/executable-definitions': 0,
+
+        '@graphql-eslint/unique-fragment-name': 2,
+        '@graphql-eslint/unique-operation-name': 2,
+        '@graphql-eslint/unique-field-definition-names': 2,
         '@graphql-eslint/unique-type-names': 2,
-        '@graphql-eslint/unique-enum-value-names': 0,
+        '@graphql-eslint/unique-enum-value-names': 2,
 
         '@graphql-eslint/require-id-when-available': 2,
         '@graphql-eslint/no-deprecated': 1,
