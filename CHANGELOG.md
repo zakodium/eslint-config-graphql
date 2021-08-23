@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.2.0...v1.3.0) (2021-08-23)
+
+
+### Features
+
+* upgrade graphql eslint plugin ([642eca2](https://www.github.com/zakodium/eslint-config-graphql/commit/642eca28fb8b62092eb6dffa691de78eba72f210))
+
 ## [1.2.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.1.3...v1.2.0) (2021-05-21)
 
 
