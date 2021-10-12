@@ -1,23 +1,21 @@
 {
   "name": "@zakodium/eslint-config-graphql",
   "version": "1.3.0",
-  "description": "Eslint config for graphql files",
+  "description": "ESLint config for GraphQL files",
   "main": "index.js",
-  "author": "",
   "license": "MIT",
   "scripts": {
     "test": "node test/test.mjs"
   },
-  "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^2.0.2"
-  },
   "peerDependencies": {
+    "@graphql-eslint/eslint-plugin": ">=2.2.0",
     "eslint": ">=7.8.0",
-    "graphql": ">=15.0"
+    "graphql": ">=15.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.8.0",
-    "graphql": "^15.5.0",
-    "prettier": "^2.3.2"
+    "@graphql-eslint/eslint-plugin": "2.2.0",
+    "eslint": "7.8.0",
+    "graphql": "15.0.0",
+    "prettier": "^2.4.1"
   }
 }
