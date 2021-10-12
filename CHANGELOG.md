@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.3.0...v2.0.0) (2021-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* mark eslint plugin as peer dependency
+
+### Bug Fixes
+
+* mark eslint plugin as peer dependency ([5acb656](https://www.github.com/zakodium/eslint-config-graphql/commit/5acb656fed55c06f29ed835e046955ac5fc8fd5d))
+
 ## [1.3.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v1.2.0...v1.3.0) (2021-08-23)
 
 
