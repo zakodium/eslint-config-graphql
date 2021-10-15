@@ -8,14 +8,14 @@
     "test": "node test/test.mjs"
   },
   "peerDependencies": {
-    "@graphql-eslint/eslint-plugin": ">=2.2.0",
-    "eslint": ">=7.8.0",
-    "graphql": ">=15.0.0"
+    "@graphql-eslint/eslint-plugin": "^2.2.0",
+    "eslint": "^8.0.1",
+    "graphql": "^15.6.1"
   },
   "devDependencies": {
     "@graphql-eslint/eslint-plugin": "2.2.0",
-    "eslint": "7.8.0",
-    "graphql": "15.0.0",
+    "eslint": "8.0.1",
+    "graphql": "15.6.1",
     "prettier": "^2.4.1"
   }
 }
