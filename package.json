@@ -1,6 +1,6 @@
 {
   "name": "@zakodium/eslint-config-graphql",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "ESLint config for GraphQL files",
   "main": "index.js",
   "license": "MIT",
