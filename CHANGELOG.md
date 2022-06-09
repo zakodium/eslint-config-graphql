@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v3.0.0...v4.0.0) (2022-06-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* update to graphql eslint v3 and configure new rules (#14)
+
+### Features
+
+* update to graphql eslint v3 and configure new rules ([#14](https://www.github.com/zakodium/eslint-config-graphql/issues/14)) ([67851d7](https://www.github.com/zakodium/eslint-config-graphql/commit/67851d794bc5b67076b4105be8cb167fbb1f61e6))
+
 ## [3.0.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v2.0.0...v3.0.0) (2021-10-15)
 
 
