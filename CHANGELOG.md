@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.1](https://www.github.com/zakodium/eslint-config-graphql/compare/v4.0.0...v4.0.1) (2022-06-09)
+
+
+### Bug Fixes
+
+* update graphql eslint peer dependency version ([a7a05f7](https://www.github.com/zakodium/eslint-config-graphql/commit/a7a05f701874fc74b17c153f6cd62eacdc9e084c))
+
 ## [4.0.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v3.0.0...v4.0.0) (2022-06-09)
 
 
