@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.2](https://www.github.com/zakodium/eslint-config-graphql/compare/v4.0.1...v4.0.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* disable rules which are too restrictive ([33573c6](https://www.github.com/zakodium/eslint-config-graphql/commit/33573c6d5e47418eff33b87440c3efb0c26b246b))
+
 ### [4.0.1](https://www.github.com/zakodium/eslint-config-graphql/compare/v4.0.0...v4.0.1) (2022-06-09)
 
 
