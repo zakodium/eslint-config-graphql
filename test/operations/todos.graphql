@@ -1,5 +1,6 @@
 query Operation1 {
   todos {
+    id
     user {
       id
       name

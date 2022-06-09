@@ -1,4 +1,5 @@
 type Todo {
+  id: ID!
   message: String!
   user: User!
   status: TodoStatus!
@@ -6,6 +7,7 @@ type Todo {
 
 type Query {
   todos: [Todo!]!
+  users: [User!]!
 }
 
 enum TodoStatus {
