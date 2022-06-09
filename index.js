@@ -7,7 +7,7 @@ module.exports = {
       rules: {
         '@graphql-eslint/alphabetize': 0,
         // Enforce all comments to be block comments
-        '@graphql-eslint/description-style': 2,
+        '@graphql-eslint/description-style': 0,
         '@graphql-eslint/executable-definitions': 0,
         '@graphql-eslint/fields-on-correct-type': 2,
         '@graphql-eslint/fragments-on-composite-type': 2,
@@ -76,7 +76,7 @@ module.exports = {
 
         '@graphql-eslint/scalar-leafs': 2,
         '@graphql-eslint/selection-set-depth': 0,
-        '@graphql-eslint/strict-id-in-types': 2,
+        '@graphql-eslint/strict-id-in-types': 0,
 
         '@graphql-eslint/unique-argument-names': 2,
         '@graphql-eslint/unique-directive-names': 2,
