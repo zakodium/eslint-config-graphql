@@ -16,8 +16,6 @@ module.exports = {
         '@graphql-eslint/require-id-when-available': 2,
         '@graphql-eslint/no-deprecated': 1,
         '@graphql-eslint/no-anonymous-operations': 2,
-        '@graphql-eslint/no-operation-name-suffix': 2,
-        '@graphql-eslint/avoid-duplicate-fields': 2,
         '@graphql-eslint/naming-convention': [
           'error',
           {
@@ -31,10 +29,10 @@ module.exports = {
             UnionTypeDefinition: 'PascalCase',
             ScalarTypeDefinition: 'PascalCase',
             OperationDefinition: 'PascalCase',
-            QueryDefinition: 'camelCase',
+            Argument: 'camelCase',
             FragmentDefinition: 'camelCase',
-            leadingUnderscore: 'allow',
-            trailingUnderscore: 'forbid',
+            allowLeadingUnderscore: true,
+            allowTrailingUnderscore: false,
           },
         ],
         // This rule is deactivated because it is not compatible with
