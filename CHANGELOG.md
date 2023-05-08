@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.0.1](https://github.com/zakodium/eslint-config-graphql/compare/v5.0.0...v5.0.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* publish to GitHub package registry ([f809408](https://github.com/zakodium/eslint-config-graphql/commit/f809408799a4fe0490a871ce629854f85c48ca24))
+
 ## [5.0.0](https://www.github.com/zakodium/eslint-config-graphql/compare/v4.0.2...v5.0.0) (2023-02-21)
 
 
