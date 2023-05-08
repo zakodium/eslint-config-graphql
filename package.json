@@ -6,7 +6,8 @@
   "license": "MIT",
   "repository": "https://github.com/zakodium/eslint-config-graphql",
   "scripts": {
-    "test": "node test/test.mjs"
+    "test": "npm run test-only",
+    "test-only": "node test/test.mjs"
   },
   "peerDependencies": {
     "@graphql-eslint/eslint-plugin": "^3.16.0",
