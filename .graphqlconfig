@@ -1,4 +1,4 @@
 {
-    "schema": "./test/schema/**/*.graphql",
-    "documents": "./test/operations/**/*.graphql"
+    "schema": "./test/schema/**/*.{gql,graphql}",
+    "documents": "./test/operations/**/*.{gql,graphql}"
 }
