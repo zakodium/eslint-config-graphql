@@ -1,5 +1,16 @@
 # Changelog
 
+## [6.0.0](https://github.com/zakodium/eslint-config-graphql/compare/v5.1.0...v6.0.0) (2024-07-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update ESLint to flat config ([#22](https://github.com/zakodium/eslint-config-graphql/issues/22))
+
+### Features
+
+* update ESLint to flat config ([#22](https://github.com/zakodium/eslint-config-graphql/issues/22)) ([982b5e4](https://github.com/zakodium/eslint-config-graphql/commit/982b5e41505e6b80c6d96b47ea72f06536f25e4a))
+
 ## [5.1.0](https://github.com/zakodium/eslint-config-graphql/compare/v5.0.1...v5.1.0) (2023-12-05)
 
 
