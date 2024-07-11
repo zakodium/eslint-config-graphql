@@ -1,11 +1,11 @@
-# eslint-config-graphql
+# @zakodium/eslint-config-graphql
 
-Shared ESLint config for frontend and backend projects using graphql
+Shared ESLint config for frontend and backend projects using GraphQL
 
 ## Installation
 
 ```console
-npx i -D @zakodium/eslint-config-graphql eslint
+npm i -D @zakodium/eslint-config-graphql eslint
 ```
 
 `graphql` is also a peer dependency and would usually be in the dependencies of your project
@@ -16,27 +16,37 @@ npm i graphql
 
 ## Usage
 
-Create a `.eslintrc.yml` with the following contents:
+Create a `eslint.config.mjs` with the following contents:
 
-```yml
-extends: zakodium-graphql
+```js
+import graphql from '@zakodium/eslint-config-graphql';
+
+export default [
+  // You will probably extend other configs as well.
+  ...graphql,
+];
 ```
 
-Create a `.graphqlrc` or `.graphqlconfig` file with your graphql configuration
+Create a `.graphqlrc` or `.graphqlconfig` file with your GraphQL configuration
 
-Or alternatively, specify the options in the eslint config
+Or alternatively, specify the options in the ESLint config:
 
-```yml
-extends: zakodium-graphql
-overrides:
-    files:
-      - *.graphql
-    parserOptions:
-      schema: path/to/your/schema/**/*.graphql
-      operations path/to/your/operations/**/*.graphql
+```js
+import graphql from '@zakodium/eslint-config-graphql';
 
+export default [
+  // You will probably extend other configs as well.
+  ...graphql,
+  {
+    files: ['**/*.{gql,graphql}'],
+    languageOptions: {
+      parserOptions: {
+        schema: 'path/to/your/schema/**/*.{gql,graphql}',
+        operations: 'path/to/your/operations/**/*.{gql,graphql}',
+      },
+    },
+  },
+];
 ```
 
 You can then customize the config for your project by changing rules in this file.
-
-

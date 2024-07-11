@@ -2,22 +2,31 @@
   "name": "@zakodium/eslint-config-graphql",
   "version": "5.1.0",
   "description": "ESLint config for GraphQL files",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "license": "MIT",
   "repository": "https://github.com/zakodium/eslint-config-graphql",
   "scripts": {
-    "test": "npm run test-only",
-    "test-only": "node test/test.mjs"
+    "eslint": "eslint .",
+    "eslint-fix": "npm run eslint -- --fix",
+    "prettier": "prettier --check .",
+    "prettier-write": "prettier --write .",
+    "test": "npm run test-only && npm run eslint && npm run prettier",
+    "test-only": "node test/test.js"
+  },
+  "dependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.20.1"
   },
   "peerDependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.20.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.57.0",
     "graphql": "^16.8.1"
   },
   "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "3.20.1",
-    "eslint": "8.55.0",
+    "eslint": "8.57.0",
+    "eslint-config-cheminfo": "^11.0.3",
     "graphql": "16.8.1",
-    "prettier": "^3.1.0"
+    "prettier": "^3.3.2"
   }
 }
