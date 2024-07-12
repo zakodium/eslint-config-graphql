@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.1](https://github.com/zakodium/eslint-config-graphql/compare/v6.0.0...v6.0.1) (2024-07-12)
+
+
+### Bug Fixes
+
+* make it work with `--cache` ([fce655e](https://github.com/zakodium/eslint-config-graphql/commit/fce655e7cfd3b45a0aa673269dc5c56578df0f3c))
+
 ## [6.0.0](https://github.com/zakodium/eslint-config-graphql/compare/v5.1.0...v6.0.0) (2024-07-11)
 
 
