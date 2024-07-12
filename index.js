@@ -7,7 +7,15 @@ export default [
       '@graphql-eslint': graphqlEslint,
     },
     languageOptions: {
-      parser: graphqlEslint,
+      parser: {
+        ...graphqlEslint,
+        // Necessary to avoid an error when ESLint is run with --cache.
+        // https://github.com/dimaMachina/graphql-eslint/issues/2178
+        // TODO: remove this when fixed in the package.
+        meta: {
+          name: '@graphql-eslint',
+        },
+      },
     },
     rules: {
       '@graphql-eslint/alphabetize': 'off',

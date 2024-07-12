@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": "https://github.com/zakodium/eslint-config-graphql",
   "scripts": {
-    "eslint": "eslint .",
+    "eslint": "eslint . --cache",
     "eslint-fix": "npm run eslint -- --fix",
     "prettier": "prettier --check .",
     "prettier-write": "prettier --write .",
