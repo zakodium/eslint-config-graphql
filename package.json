@@ -1,6 +1,6 @@
 {
   "name": "@zakodium/eslint-config-graphql",
-  "version": "6.0.1",
+  "version": "7.0.0",
   "description": "ESLint config for GraphQL files",
   "type": "module",
   "exports": {
