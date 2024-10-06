@@ -41,8 +41,10 @@ export default [
     files: ['**/*.{gql,graphql}'],
     languageOptions: {
       parserOptions: {
-        schema: 'path/to/your/schema/**/*.{gql,graphql}',
-        operations: 'path/to/your/operations/**/*.{gql,graphql}',
+        graphQLConfig: {
+          schema: 'path/to/your/schema/**/*.{gql,graphql}',
+          documents: 'path/to/your/operations/**/*.{gql,graphql}',
+        },
       },
     },
   },

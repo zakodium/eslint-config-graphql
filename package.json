@@ -17,16 +17,16 @@
     "test-only": "node test/test.js"
   },
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.20.1"
+    "@graphql-eslint/eslint-plugin": "4.0.0-alpha.4"
   },
   "peerDependencies": {
-    "eslint": "^8.57.0",
-    "graphql": "^16.8.1"
+    "eslint": "^8.57.0 || ^9.12.0",
+    "graphql": "^16.9.0"
   },
   "devDependencies": {
-    "eslint": "8.57.0",
-    "eslint-config-cheminfo": "^11.0.3",
-    "graphql": "16.8.1",
-    "prettier": "^3.3.2"
+    "eslint": "9.12.0",
+    "eslint-config-cheminfo": "^12.0.0",
+    "graphql": "16.9.0",
+    "prettier": "^3.3.3"
   }
 }

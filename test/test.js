@@ -1,8 +1,7 @@
 import assert from 'node:assert';
 
-import { loadESLint } from 'eslint';
+import { ESLint } from 'eslint';
 
-const ESLint = await loadESLint({ useFlatConfig: true });
 const eslint = new ESLint();
 const formatter = await eslint.loadFormatter('stylish');
 

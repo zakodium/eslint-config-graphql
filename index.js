@@ -7,15 +7,7 @@ export default [
       '@graphql-eslint': graphqlEslint,
     },
     languageOptions: {
-      parser: {
-        ...graphqlEslint,
-        // Necessary to avoid an error when ESLint is run with --cache.
-        // https://github.com/dimaMachina/graphql-eslint/issues/2178
-        // TODO: remove this when fixed in the package.
-        meta: {
-          name: '@graphql-eslint',
-        },
-      },
+      parser: graphqlEslint.parser,
     },
     rules: {
       '@graphql-eslint/alphabetize': 'off',
@@ -56,7 +48,6 @@ export default [
       ],
 
       '@graphql-eslint/no-anonymous-operations': 'error',
-      '@graphql-eslint/no-case-insensitive-enum-values-duplicates': 'error',
       '@graphql-eslint/no-deprecated': 'warn',
       '@graphql-eslint/no-duplicate-fields': 'error',
       '@graphql-eslint/no-hashtag-description': 'error',
@@ -85,7 +76,7 @@ export default [
       '@graphql-eslint/require-deprecation-reason': 'error',
       '@graphql-eslint/require-description': 'off',
       '@graphql-eslint/require-field-of-type-query-in-mutation-result': 'off',
-      '@graphql-eslint/require-id-when-available': 'error',
+      '@graphql-eslint/require-selections': 'error',
 
       '@graphql-eslint/scalar-leafs': 'error',
       '@graphql-eslint/selection-set-depth': 'off',
