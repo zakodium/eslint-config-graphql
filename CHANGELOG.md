@@ -1,5 +1,16 @@
 # Changelog
 
+## [8.0.0](https://github.com/zakodium/eslint-config-graphql/compare/v7.0.0...v8.0.0) (2026-01-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies and require ESLint 9
+
+### Features
+
+* update dependencies and require ESLint 9 ([7222c2d](https://github.com/zakodium/eslint-config-graphql/commit/7222c2d10d831b5654b0fc1b46f3a6e8629d9e96))
+
 ## [7.0.0](https://github.com/zakodium/eslint-config-graphql/compare/v6.0.1...v7.0.0) (2024-10-06)
 
 
