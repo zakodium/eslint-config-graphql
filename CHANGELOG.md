@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.0](https://github.com/zakodium/eslint-config-graphql/compare/v8.0.0...v8.1.0) (2026-01-20)
+
+
+### Features
+
+* add support for GraphQL documents defined in code ([#27](https://github.com/zakodium/eslint-config-graphql/issues/27)) ([b021a92](https://github.com/zakodium/eslint-config-graphql/commit/b021a92f5ab549157422f21c4d1d135213a59358))
+
 ## [8.0.0](https://github.com/zakodium/eslint-config-graphql/compare/v7.0.0...v8.0.0) (2026-01-07)
 
 
