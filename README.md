@@ -20,11 +20,12 @@ Create a `eslint.config.mjs` with the following contents:
 
 ```js
 import graphql from '@zakodium/eslint-config-graphql';
+import { defineConfig } from 'eslint/config';
 
-export default [
+export default defineConfig(
   // You will probably extend other configs as well.
-  ...graphql,
-];
+  graphql,
+);
 ```
 
 Create a `.graphqlrc` or `.graphqlconfig` file with your GraphQL configuration
@@ -33,10 +34,11 @@ Or alternatively, specify the options in the ESLint config:
 
 ```js
 import graphql from '@zakodium/eslint-config-graphql';
+import { defineConfig } from 'eslint/config';
 
-export default [
+export default defineConfig(
   // You will probably extend other configs as well.
-  ...graphql,
+  graphql,
   {
     files: ['**/*.{gql,graphql}'],
     languageOptions: {
@@ -48,7 +50,26 @@ export default [
       },
     },
   },
-];
+);
 ```
 
 You can then customize the config for your project by changing rules in this file.
+
+### Lint documents defined by `gql` or `graphql` tags
+
+If your documents are defined directly in JavaScript or TypeScript files using the `gql` or `graphql` template tags,
+you need to add something like this in your config:
+
+```js
+import graphql, { processor } from '@zakodium/eslint-config-graphql';
+import { defineConfig } from 'eslint/config';
+export default defineConfig(
+  // You will probably extend other configs as well.
+  graphql,
+  {
+    // Selector for the files that define GraphQL documents.
+    files: ['front/src/**/*.{ts,tsx}'],
+    processor,
+  },
+);
+```

@@ -1,5 +1,7 @@
 import * as graphqlEslint from '@graphql-eslint/eslint-plugin';
 
+export const processor = graphqlEslint.processors.graphql;
+
 export default [
   {
     files: ['**/*.{gql,graphql}'],
