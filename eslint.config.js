@@ -1,12 +1,17 @@
-import cheminfo from 'eslint-config-cheminfo';
+import { defineConfig } from 'eslint/config';
+import cheminfo from 'eslint-config-cheminfo/base';
 
-import graphql from './index.js';
+import graphql, { processor } from './index.js';
 
-export default [
-  ...cheminfo,
-  ...graphql,
+export default defineConfig(
+  cheminfo,
+  graphql,
   {
-    files: ['**/*.{gql,graphql}'],
+    files: ['test/**/*.jsx'],
+    processor,
+  },
+  {
+    files: ['test/**/*.{gql,graphql}'],
     languageOptions: {
       parserOptions: {
         graphQLConfig: {
@@ -16,4 +21,4 @@ export default [
       },
     },
   },
-];
+);
